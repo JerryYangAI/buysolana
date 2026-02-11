@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import type { Metadata } from "next";
 import { MarketDashboard } from "@/components/prices/market-dashboard";
 import { PageHero } from "@/components/ui/page-hero";

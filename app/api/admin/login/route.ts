@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import { NextResponse } from "next/server";
 import { apiError, normalizeOptionalString } from "@/lib/api/response";
 import { isAdminConfigured, setAdminSessionCookie, verifyAdminPassword } from "@/lib/admin/auth";
@@ -21,7 +23,7 @@ export async function POST(request: Request) {
     return apiError(400, "MISSING_PASSWORD", "Password is required");
   }
 
-  if (!verifyAdminPassword(password)) {
+  if (!(await verifyAdminPassword(password))) {
     return apiError(403, "INVALID_CREDENTIALS", "Invalid admin password");
   }
 

@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import { NextResponse } from "next/server";
 import { applyModerationAction, type ModerationAction, type ModerationEntity } from "@/lib/admin/moderation";
 import { isAdminSessionValid } from "@/lib/admin/auth";

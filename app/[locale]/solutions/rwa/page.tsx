@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import type { Metadata } from "next";
 import { localizedMetadata } from "@/lib/metadata";
 import { isLocale } from "@/lib/i18n/config";

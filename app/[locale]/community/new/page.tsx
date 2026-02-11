@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import type { Metadata } from "next";
 import { NewPostForm } from "@/components/community/new-post-form";
 import { PageHero } from "@/components/ui/page-hero";

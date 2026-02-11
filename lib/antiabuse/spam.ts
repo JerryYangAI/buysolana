@@ -1,6 +1,5 @@
 import "server-only";
 
-import { createHash } from "node:crypto";
 import { readAbuseKey, writeAbuseKey } from "@/lib/antiabuse/rateLimit";
 
 const URL_REGEX = /https?:\/\/[^\s)]+/gi;
@@ -18,8 +17,16 @@ export function isLengthBetween(value: string, min: number, max: number) {
   return value.length >= min && value.length <= max;
 }
 
-export function sha256Hex(input: string) {
-  return createHash("sha256").update(input).digest("hex");
+function toHex(bytes: Uint8Array) {
+  return Array.from(bytes)
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+export async function sha256Hex(input: string) {
+  const encoded = new TextEncoder().encode(input);
+  const digest = await crypto.subtle.digest("SHA-256", encoded);
+  return toHex(new Uint8Array(digest));
 }
 
 export async function enforceDuplicateCheck(input: {
@@ -28,7 +35,7 @@ export async function enforceDuplicateCheck(input: {
   content: string;
   ttlSeconds: number;
 }) {
-  const hash = sha256Hex(input.content);
+  const hash = await sha256Hex(input.content);
   const key = `dup:${input.path}:${input.ip}:${hash}`;
   const seen = await readAbuseKey(key);
 

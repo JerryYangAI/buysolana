@@ -1,3 +1,5 @@
+export const runtime = "experimental-edge";
+
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import {
@@ -21,7 +23,7 @@ function isPublicFile(pathname: string) {
   return /\.[a-zA-Z0-9]+$/.test(pathname);
 }
 
-export function proxy(request: NextRequest) {
+export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const host = request.headers.get("host") || "";
 

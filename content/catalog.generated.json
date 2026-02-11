@@ -1,0 +1,5795 @@
+{
+  "generatedAt": "2026-02-11T15:22:35.186Z",
+  "entries": {
+    "learn": {
+      "en": [
+        {
+          "slug": "github-reading-playbook",
+          "title": "GitHub Playbook for Solana Learners",
+          "description": "How to read repos, examples, and issues without deep coding experience.",
+          "date": "2026-02-07",
+          "source": "github",
+          "tldr": [
+            "Start with README, examples folder, then open issues.",
+            "Focus on release notes to spot breaking changes."
+          ],
+          "nextRead": [
+            "solana-docs-roadmap"
+          ],
+          "body": "\n## Read from top to bottom\n\nStart with README and quickstart. Then open the simplest example project and run it locally.\n\n## Use issues as learning material\n\nClosed issues often explain failure modes better than tutorials.\n\n## Track changes\n\nWatch repository releases so you know when guides become outdated.\n",
+          "toc": [
+            {
+              "id": "read-from-top-to-bottom",
+              "text": "Read from top to bottom",
+              "depth": 2
+            },
+            {
+              "id": "use-issues-as-learning-material",
+              "text": "Use issues as learning material",
+              "depth": 2
+            },
+            {
+              "id": "track-changes",
+              "text": "Track changes",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "solana-docs-roadmap",
+          "title": "Reading Solana Docs Without Getting Lost",
+          "description": "A practical order for reading core documentation as a beginner.",
+          "date": "2026-02-10",
+          "source": "docs",
+          "tldr": [
+            "Start from account model and transaction basics before advanced topics.",
+            "Keep notes for wallet setup, fees, and confirmation flow."
+          ],
+          "nextRead": [
+            "wallet-safety-checklist"
+          ],
+          "body": "\n## Why docs first\n\nOfficial docs are useful when you read them in the right sequence. Beginners usually jump into advanced pages too early.\n\n## Suggested reading order\n\n1. Accounts and programs\n2. Transactions and fees\n3. RPC and explorers\n4. Tooling and frameworks\n\n## How to take notes\n\nWrite one short note for each page:\n- What problem this concept solves\n- One real action you can do next\n- One risk to avoid\n",
+          "toc": [
+            {
+              "id": "why-docs-first",
+              "text": "Why docs first",
+              "depth": 2
+            },
+            {
+              "id": "suggested-reading-order",
+              "text": "Suggested reading order",
+              "depth": 2
+            },
+            {
+              "id": "how-to-take-notes",
+              "text": "How to take notes",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "wallet-safety-checklist",
+          "title": "Wallet Safety Checklist for Day 1",
+          "description": "Simple, non-technical steps to protect your wallet from common mistakes.",
+          "date": "2026-02-09",
+          "source": "basics",
+          "tldr": [
+            "Use a dedicated wallet and separate hot and cold storage.",
+            "Never share seed phrases.",
+            "Verify destination addresses before each transfer."
+          ],
+          "nextRead": [
+            "youtube-first-transaction"
+          ],
+          "body": "\n## Separate wallets by purpose\n\nUse one wallet for testing and one for long-term storage. This lowers risk when you try new apps.\n\n## Protect seed phrases\n\nStore backup phrases offline in at least two safe locations. Do not keep them in screenshots or cloud notes.\n\n## Confirm before signing\n\nCheck recipient address, token amount, and network before every signature.\n",
+          "toc": [
+            {
+              "id": "separate-wallets-by-purpose",
+              "text": "Separate wallets by purpose",
+              "depth": 2
+            },
+            {
+              "id": "protect-seed-phrases",
+              "text": "Protect seed phrases",
+              "depth": 2
+            },
+            {
+              "id": "confirm-before-signing",
+              "text": "Confirm before signing",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "youtube-first-transaction",
+          "title": "YouTube Walkthrough: Your First SOL Transfer",
+          "description": "How to watch tutorials critically and avoid risky copy-paste behavior.",
+          "date": "2026-02-08",
+          "source": "youtube",
+          "tldr": [
+            "Follow creators who explain why each step matters.",
+            "Recreate actions on small amounts first."
+          ],
+          "nextRead": [
+            "github-reading-playbook"
+          ],
+          "body": "\n## Pick tutorial quality signals\n\nChoose videos that show wallet confirmations clearly and mention risks.\n\n## Rehearse with tiny value\n\nBefore larger transfers, do one tiny transaction and verify confirmation in an explorer.\n\n## Keep your own checklist\n\nYour learning speed improves when you document each action in your own words.\n",
+          "toc": [
+            {
+              "id": "pick-tutorial-quality-signals",
+              "text": "Pick tutorial quality signals",
+              "depth": 2
+            },
+            {
+              "id": "rehearse-with-tiny-value",
+              "text": "Rehearse with tiny value",
+              "depth": 2
+            },
+            {
+              "id": "keep-your-own-checklist",
+              "text": "Keep your own checklist",
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "zh-CN": [
+        {
+          "slug": "github-reading-playbook",
+          "title": "Solana 学习者的 GitHub 阅读法",
+          "description": "不写太多代码也能从仓库中学到关键知识。",
+          "date": "2026-02-07",
+          "source": "github",
+          "tldr": [
+            "从 README、示例目录、Issues 三步阅读。",
+            "关注 release 说明判断资料是否过时。"
+          ],
+          "nextRead": [
+            "solana-docs-roadmap"
+          ],
+          "body": "\n## 从结构开始\n\n先看 README 和快速启动，再找最小示例运行一遍。\n\n## 读已关闭问题\n\n很多失败案例和修复思路都在 issue 讨论中。\n\n## 跟踪版本\n\n关注发布记录，避免继续使用旧接口。\n",
+          "toc": [
+            {
+              "id": "从结构开始",
+              "text": "从结构开始",
+              "depth": 2
+            },
+            {
+              "id": "读已关闭问题",
+              "text": "读已关闭问题",
+              "depth": 2
+            },
+            {
+              "id": "跟踪版本",
+              "text": "跟踪版本",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "solana-docs-roadmap",
+          "title": "新手阅读 Solana 文档的顺序",
+          "description": "给初学者的文档阅读路径，避免一开始就陷入复杂细节。",
+          "date": "2026-02-10",
+          "source": "docs",
+          "tldr": [
+            "先读账户模型和交易基础，再看进阶章节。",
+            "针对钱包、手续费、确认流程做简要笔记。"
+          ],
+          "nextRead": [
+            "wallet-safety-checklist"
+          ],
+          "body": "\n## 为什么先看文档\n\n官方文档信息完整，但阅读顺序不对会很容易迷失。\n\n## 建议顺序\n\n1. 账户与程序\n2. 交易与费用\n3. RPC 与区块浏览器\n4. 开发工具与框架\n\n## 记录方式\n\n每篇文档只记三件事：\n- 解决什么问题\n- 下一步可执行动作\n- 可能踩坑点\n",
+          "toc": [
+            {
+              "id": "为什么先看文档",
+              "text": "为什么先看文档",
+              "depth": 2
+            },
+            {
+              "id": "建议顺序",
+              "text": "建议顺序",
+              "depth": 2
+            },
+            {
+              "id": "记录方式",
+              "text": "记录方式",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "wallet-safety-checklist",
+          "title": "第 1 天钱包安全清单",
+          "description": "不需要技术背景也能执行的钱包安全规则。",
+          "date": "2026-02-09",
+          "source": "basics",
+          "tldr": [
+            "把体验钱包和长期钱包分开。",
+            "助记词永远不共享。",
+            "每次转账前二次确认地址。"
+          ],
+          "nextRead": [
+            "youtube-first-transaction"
+          ],
+          "body": "\n## 按用途拆分钱包\n\n新工具测试与长期存储应分开，能显著降低风险。\n\n## 助记词离线保存\n\n至少两份离线备份，不要放在截图和云笔记中。\n\n## 签名前检查\n\n确认接收地址、数量、网络是否正确，再进行签名。\n",
+          "toc": [
+            {
+              "id": "按用途拆分钱包",
+              "text": "按用途拆分钱包",
+              "depth": 2
+            },
+            {
+              "id": "助记词离线保存",
+              "text": "助记词离线保存",
+              "depth": 2
+            },
+            {
+              "id": "签名前检查",
+              "text": "签名前检查",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "youtube-first-transaction",
+          "title": "YouTube 实操：第一笔 SOL 转账",
+          "description": "如何看教程并避开照抄步骤带来的风险。",
+          "date": "2026-02-08",
+          "source": "youtube",
+          "tldr": [
+            "优先看解释原理和风险的创作者。",
+            "先用小额资金演练全流程。"
+          ],
+          "nextRead": [
+            "github-reading-playbook"
+          ],
+          "body": "\n## 筛选教程质量\n\n优先选择会展示签名确认界面并说明风险的视频。\n\n## 先小额测试\n\n正式操作前先做一笔小额转账，并在浏览器确认结果。\n\n## 建立自己的清单\n\n把每步动作写下来，比只看视频更容易形成可复用习惯。\n",
+          "toc": [
+            {
+              "id": "筛选教程质量",
+              "text": "筛选教程质量",
+              "depth": 2
+            },
+            {
+              "id": "先小额测试",
+              "text": "先小额测试",
+              "depth": 2
+            },
+            {
+              "id": "建立自己的清单",
+              "text": "建立自己的清单",
+              "depth": 2
+            }
+          ]
+        }
+      ]
+    },
+    "blog": {
+      "en": [
+        {
+          "slug": "common-beginner-errors",
+          "title": "Five Beginner Errors and How to Avoid Them",
+          "description": "Mistakes seen repeatedly in onboarding sessions.",
+          "date": "2026-02-05",
+          "body": "\n## Common pattern\n\nMost mistakes happen from rushing transactions and skipping address checks.\n\n## Better habit\n\nCreate a pre-sign checklist and treat every transfer as production-grade.\n",
+          "toc": [
+            {
+              "id": "common-pattern",
+              "text": "Common pattern",
+              "depth": 2
+            },
+            {
+              "id": "better-habit",
+              "text": "Better habit",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "first-week-plan",
+          "title": "Your First Week with Solana: A Practical Plan",
+          "description": "A seven-day structure that balances learning and safety.",
+          "date": "2026-02-06",
+          "body": "\n## Day-by-day focus\n\nSet one concrete output per day: wallet setup, first transfer, explorer review, and one community question.\n\n## Keep scope small\n\nYou do not need advanced DeFi tools in week one. Build fundamentals first.\n",
+          "toc": [
+            {
+              "id": "day-by-day-focus",
+              "text": "Day-by-day focus",
+              "depth": 2
+            },
+            {
+              "id": "keep-scope-small",
+              "text": "Keep scope small",
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "zh-CN": [
+        {
+          "slug": "common-beginner-errors",
+          "title": "新手常见 5 个错误与规避方式",
+          "description": "高频踩坑点与可执行修正方案。",
+          "date": "2026-02-05",
+          "body": "\n## 高频问题\n\n很多问题来自匆忙签名和未检查收款地址。\n\n## 改进动作\n\n建立签名前核对清单，把每次转账当作正式操作。\n",
+          "toc": [
+            {
+              "id": "高频问题",
+              "text": "高频问题",
+              "depth": 2
+            },
+            {
+              "id": "改进动作",
+              "text": "改进动作",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "first-week-plan",
+          "title": "Solana 新手第一周行动计划",
+          "description": "用 7 天建立稳定学习节奏与安全习惯。",
+          "date": "2026-02-06",
+          "body": "\n## 每日目标\n\n每天只完成一个清晰产出：钱包配置、首次转账、浏览器核对、社区提问。\n\n## 控制范围\n\n第一周先夯实基础，不必急着进入复杂 DeFi 工具。\n",
+          "toc": [
+            {
+              "id": "每日目标",
+              "text": "每日目标",
+              "depth": 2
+            },
+            {
+              "id": "控制范围",
+              "text": "控制范围",
+              "depth": 2
+            }
+          ]
+        }
+      ]
+    },
+    "podcast": {
+      "en": [
+        {
+          "slug": "episode-1-wallet-setup",
+          "title": "Episode 1: Wallet Setup without Confusion",
+          "description": "A short audio script on secure wallet onboarding.",
+          "date": "2026-02-04",
+          "body": "\n## Episode notes\n\nWe break down seed phrase handling, backup strategy, and confirmation hygiene.\n",
+          "toc": [
+            {
+              "id": "episode-notes",
+              "text": "Episode notes",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "episode-2-explorer-reading",
+          "title": "Episode 2: Read a Transaction Explorer Like an Analyst",
+          "description": "Learn the fields that matter for daily verification.",
+          "date": "2026-02-03",
+          "body": "\n## Episode notes\n\nThis episode explains status, slot, signatures, and fee interpretation.\n",
+          "toc": [
+            {
+              "id": "episode-notes",
+              "text": "Episode notes",
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "zh-CN": [
+        {
+          "slug": "episode-1-wallet-setup",
+          "title": "第 1 期：钱包配置不再混乱",
+          "description": "用音频方式讲清钱包安全上手。",
+          "date": "2026-02-04",
+          "body": "\n## 节目笔记\n\n围绕助记词保存、备份策略和签名确认习惯展开。\n",
+          "toc": [
+            {
+              "id": "节目笔记",
+              "text": "节目笔记",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "episode-2-explorer-reading",
+          "title": "第 2 期：像分析师一样看交易浏览器",
+          "description": "理解日常核对必须看的字段。",
+          "date": "2026-02-03",
+          "body": "\n## 节目笔记\n\n重点解释状态、slot、签名与手续费等关键字段。\n",
+          "toc": [
+            {
+              "id": "节目笔记",
+              "text": "节目笔记",
+              "depth": 2
+            }
+          ]
+        }
+      ]
+    },
+    "glossary": {
+      "en": [
+        {
+          "slug": "_index",
+          "title": "Glossary",
+          "description": "Core vocabulary skeleton for Solana beginners.",
+          "type": "glossary_index",
+          "locale": "en",
+          "body": "\n## Glossary Index\n\nDraft concise definitions before adding deep examples.\n",
+          "toc": [
+            {
+              "id": "glossary-index",
+              "text": "Glossary Index",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "account",
+          "title": "Account",
+          "description": "Account concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "account",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "address",
+            "airdrop"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "address",
+          "title": "Address",
+          "description": "Address concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "address",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "airdrop",
+            "amm"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "airdrop",
+          "title": "Airdrop",
+          "description": "Airdrop concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "airdrop",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "amm",
+            "apr"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "amm",
+          "title": "AMM",
+          "description": "AMM concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "amm",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "apr",
+            "apy"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "apr",
+          "title": "APR",
+          "description": "APR concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "apr",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "apy",
+            "block"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "apy",
+          "title": "APY",
+          "description": "APY concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "apy",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "block",
+            "blockhash"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "block",
+          "title": "Block",
+          "description": "Block concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "block",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "blockhash",
+            "burn"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "blockhash",
+          "title": "Blockhash",
+          "description": "Blockhash concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "blockhash",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "burn",
+            "cold-wallet"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "burn",
+          "title": "Burn",
+          "description": "Burn concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "burn",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "cold-wallet",
+            "consensus"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "cold-wallet",
+          "title": "Cold Wallet",
+          "description": "Cold Wallet concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "cold-wallet",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "consensus",
+            "custody"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "consensus",
+          "title": "Consensus",
+          "description": "Consensus concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "consensus",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "custody",
+            "dapp"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "custody",
+          "title": "Custody",
+          "description": "Custody concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "custody",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "dapp",
+            "defi"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "dapp",
+          "title": "DApp",
+          "description": "DApp concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "dapp",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "defi",
+            "delegation"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "defi",
+          "title": "DeFi",
+          "description": "DeFi concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "defi",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "delegation",
+            "fee"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "delegation",
+          "title": "Delegation",
+          "description": "Delegation concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "delegation",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "fee",
+            "finality"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "fee",
+          "title": "Fee",
+          "description": "Fee concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "fee",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "finality",
+            "gasless"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "finality",
+          "title": "Finality",
+          "description": "Finality concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "finality",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "gasless",
+            "hardware-wallet"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "gasless",
+          "title": "Gasless",
+          "description": "Gasless concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "gasless",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "hardware-wallet",
+            "hot-wallet"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "hardware-wallet",
+          "title": "Hardware Wallet",
+          "description": "Hardware Wallet concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "hardware-wallet",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "hot-wallet",
+            "liquidity"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "hot-wallet",
+          "title": "Hot Wallet",
+          "description": "Hot Wallet concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "hot-wallet",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "liquidity",
+            "liquidity-pool"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "liquidity-pool",
+          "title": "Liquidity Pool",
+          "description": "Liquidity Pool concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "liquidity-pool",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "mainnet",
+            "memecoin"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "liquidity",
+          "title": "Liquidity",
+          "description": "Liquidity concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "liquidity",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "liquidity-pool",
+            "mainnet"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "mainnet",
+          "title": "Mainnet",
+          "description": "Mainnet concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "mainnet",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "memecoin",
+            "mint"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "memecoin",
+          "title": "Memecoin",
+          "description": "Memecoin concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "memecoin",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "mint",
+            "multisig"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "mint",
+          "title": "Mint",
+          "description": "Mint concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "mint",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "multisig",
+            "nft"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "multisig",
+          "title": "Multisig",
+          "description": "Multisig concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "multisig",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "nft",
+            "node"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "nft",
+          "title": "NFT",
+          "description": "NFT concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "nft",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "node",
+            "nonce"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "node",
+          "title": "Node",
+          "description": "Node concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "node",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "nonce",
+            "on-chain"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "nonce",
+          "title": "Nonce",
+          "description": "Nonce concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "nonce",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "on-chain",
+            "oracle"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "on-chain",
+          "title": "On-chain",
+          "description": "On-chain concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "on-chain",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "oracle",
+            "orderbook"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "oracle",
+          "title": "Oracle",
+          "description": "Oracle concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "oracle",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "orderbook",
+            "pda"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "orderbook",
+          "title": "Orderbook",
+          "description": "Orderbook concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "orderbook",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "pda",
+            "private-key"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "pda",
+          "title": "PDA",
+          "description": "PDA concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "pda",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "private-key",
+            "public-key"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "private-key",
+          "title": "Private Key",
+          "description": "Private Key concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "private-key",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "public-key",
+            "rpc"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "public-key",
+          "title": "Public Key",
+          "description": "Public Key concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "public-key",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "rpc",
+            "seed-phrase"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "rpc",
+          "title": "RPC",
+          "description": "RPC concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "rpc",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "seed-phrase",
+            "signature"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "seed-phrase",
+          "title": "Seed Phrase",
+          "description": "Seed Phrase concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "seed-phrase",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "signature",
+            "slot"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "signature",
+          "title": "Signature",
+          "description": "Signature concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "signature",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "slot",
+            "smart-contract"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "slippage",
+          "title": "Slippage",
+          "description": "Slippage concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "slippage",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "account",
+            "address"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "slot",
+          "title": "Slot",
+          "description": "Slot concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "slot",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "smart-contract",
+            "stake"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "smart-contract",
+          "title": "Smart Contract",
+          "description": "Smart Contract concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "smart-contract",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "stake",
+            "stablecoin"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "stablecoin",
+          "title": "Stablecoin",
+          "description": "Stablecoin concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "stablecoin",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "testnet",
+            "token-account"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "stake",
+          "title": "Stake",
+          "description": "Stake concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "stake",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "stablecoin",
+            "testnet"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "testnet",
+          "title": "Testnet",
+          "description": "Testnet concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "testnet",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "token-account",
+            "transaction"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "token-account",
+          "title": "Token Account",
+          "description": "Token Account concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "token-account",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "transaction",
+            "validator"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "transaction",
+          "title": "Transaction",
+          "description": "Transaction concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "transaction",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "validator",
+            "vesting"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "validator",
+          "title": "Validator",
+          "description": "Validator concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "validator",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "vesting",
+            "wallet"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "vesting",
+          "title": "Vesting",
+          "description": "Vesting concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "vesting",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "wallet",
+            "whitelist"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "wallet",
+          "title": "Wallet",
+          "description": "Wallet concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "wallet",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "whitelist",
+            "slippage"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "whitelist",
+          "title": "Whitelist",
+          "description": "Whitelist concept skeleton.",
+          "type": "glossary",
+          "locale": "en",
+          "term": "whitelist",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "slippage",
+            "account"
+          ],
+          "body": "\n## Definition\n\nAdd short explanation.\n\n## Why it matters\n\nAdd short explanation.\n\n## Common pitfalls\n\n- Add short explanation.\n- Add short explanation.\n\n## Safety note\n\nAdd short explanation.\n\n## See also\n\n- Add short explanation.\n- Add short explanation.\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "zh-CN": [
+        {
+          "slug": "_index",
+          "title": "术语表",
+          "description": "面向 Solana 新手的核心术语骨架。",
+          "type": "glossary_index",
+          "locale": "zh-CN",
+          "body": "\n## 术语索引\n\n先写简明定义，再补充深入示例。\n",
+          "toc": [
+            {
+              "id": "术语索引",
+              "text": "术语索引",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "account",
+          "title": "账户",
+          "description": "账户 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "account",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "address",
+            "airdrop"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "address",
+          "title": "地址",
+          "description": "地址 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "address",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "airdrop",
+            "amm"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "airdrop",
+          "title": "空投",
+          "description": "空投 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "airdrop",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "amm",
+            "apr"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "amm",
+          "title": "自动做市商",
+          "description": "自动做市商 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "amm",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "apr",
+            "apy"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "apr",
+          "title": "年化利率",
+          "description": "年化利率 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "apr",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "apy",
+            "block"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "apy",
+          "title": "年化收益率",
+          "description": "年化收益率 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "apy",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "block",
+            "blockhash"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "block",
+          "title": "区块",
+          "description": "区块 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "block",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "blockhash",
+            "burn"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "blockhash",
+          "title": "区块哈希",
+          "description": "区块哈希 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "blockhash",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "burn",
+            "cold-wallet"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "burn",
+          "title": "销毁",
+          "description": "销毁 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "burn",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "cold-wallet",
+            "consensus"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "cold-wallet",
+          "title": "冷钱包",
+          "description": "冷钱包 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "cold-wallet",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "consensus",
+            "custody"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "consensus",
+          "title": "共识",
+          "description": "共识 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "consensus",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "custody",
+            "dapp"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "custody",
+          "title": "托管",
+          "description": "托管 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "custody",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "dapp",
+            "defi"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "dapp",
+          "title": "去中心化应用",
+          "description": "去中心化应用 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "dapp",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "defi",
+            "delegation"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "defi",
+          "title": "去中心化金融",
+          "description": "去中心化金融 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "defi",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "delegation",
+            "fee"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "delegation",
+          "title": "委托",
+          "description": "委托 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "delegation",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "fee",
+            "finality"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "fee",
+          "title": "手续费",
+          "description": "手续费 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "fee",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "finality",
+            "gasless"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "finality",
+          "title": "最终确认",
+          "description": "最终确认 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "finality",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "gasless",
+            "hardware-wallet"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "gasless",
+          "title": "免 Gas",
+          "description": "免 Gas 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "gasless",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "hardware-wallet",
+            "hot-wallet"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "hardware-wallet",
+          "title": "硬件钱包",
+          "description": "硬件钱包 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "hardware-wallet",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "hot-wallet",
+            "liquidity"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "hot-wallet",
+          "title": "热钱包",
+          "description": "热钱包 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "hot-wallet",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "liquidity",
+            "liquidity-pool"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "liquidity-pool",
+          "title": "流动性池",
+          "description": "流动性池 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "liquidity-pool",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "mainnet",
+            "memecoin"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "liquidity",
+          "title": "流动性",
+          "description": "流动性 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "liquidity",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "liquidity-pool",
+            "mainnet"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "mainnet",
+          "title": "主网",
+          "description": "主网 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "mainnet",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "memecoin",
+            "mint"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "memecoin",
+          "title": "迷因币",
+          "description": "迷因币 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "memecoin",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "mint",
+            "multisig"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "mint",
+          "title": "铸造",
+          "description": "铸造 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "mint",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "multisig",
+            "nft"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "multisig",
+          "title": "多重签名",
+          "description": "多重签名 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "multisig",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "nft",
+            "node"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "nft",
+          "title": "非同质化代币",
+          "description": "非同质化代币 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "nft",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "node",
+            "nonce"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "node",
+          "title": "节点",
+          "description": "节点 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "node",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "nonce",
+            "on-chain"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "nonce",
+          "title": "随机数",
+          "description": "随机数 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "nonce",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "on-chain",
+            "oracle"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "on-chain",
+          "title": "链上",
+          "description": "链上 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "on-chain",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "oracle",
+            "orderbook"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "oracle",
+          "title": "预言机",
+          "description": "预言机 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "oracle",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "orderbook",
+            "pda"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "orderbook",
+          "title": "订单簿",
+          "description": "订单簿 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "orderbook",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "pda",
+            "private-key"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "pda",
+          "title": "程序派生地址",
+          "description": "程序派生地址 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "pda",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "private-key",
+            "public-key"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "private-key",
+          "title": "私钥",
+          "description": "私钥 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "private-key",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "public-key",
+            "rpc"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "public-key",
+          "title": "公钥",
+          "description": "公钥 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "public-key",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "rpc",
+            "seed-phrase"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "rpc",
+          "title": "远程过程调用",
+          "description": "远程过程调用 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "rpc",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "seed-phrase",
+            "signature"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "seed-phrase",
+          "title": "助记词",
+          "description": "助记词 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "seed-phrase",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "signature",
+            "slot"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "signature",
+          "title": "签名",
+          "description": "签名 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "signature",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "slot",
+            "smart-contract"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "slippage",
+          "title": "滑点",
+          "description": "滑点 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "slippage",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "account",
+            "address"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "slot",
+          "title": "时隙",
+          "description": "时隙 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "slot",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "smart-contract",
+            "stake"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "smart-contract",
+          "title": "智能合约",
+          "description": "智能合约 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "smart-contract",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "stake",
+            "stablecoin"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "stablecoin",
+          "title": "稳定币",
+          "description": "稳定币 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "stablecoin",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "testnet",
+            "token-account"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "stake",
+          "title": "质押",
+          "description": "质押 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "stake",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "stablecoin",
+            "testnet"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "testnet",
+          "title": "测试网",
+          "description": "测试网 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "testnet",
+          "relatedLessons": [
+            "01-wallet-basics",
+            "02-transactions-fees"
+          ],
+          "relatedTerms": [
+            "token-account",
+            "transaction"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "token-account",
+          "title": "代币账户",
+          "description": "代币账户 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "token-account",
+          "relatedLessons": [
+            "02-transactions-fees",
+            "03-staking-basics"
+          ],
+          "relatedTerms": [
+            "transaction",
+            "validator"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "transaction",
+          "title": "交易",
+          "description": "交易 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "transaction",
+          "relatedLessons": [
+            "03-staking-basics",
+            "04-rpc-and-explorers"
+          ],
+          "relatedTerms": [
+            "validator",
+            "vesting"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "validator",
+          "title": "验证者",
+          "description": "验证者 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "validator",
+          "relatedLessons": [
+            "04-rpc-and-explorers",
+            "05-defi-safety"
+          ],
+          "relatedTerms": [
+            "vesting",
+            "wallet"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "vesting",
+          "title": "解锁",
+          "description": "解锁 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "vesting",
+          "relatedLessons": [
+            "05-defi-safety",
+            "06-solana-ecosystem-tools"
+          ],
+          "relatedTerms": [
+            "wallet",
+            "whitelist"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "wallet",
+          "title": "钱包",
+          "description": "钱包 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "wallet",
+          "relatedLessons": [
+            "06-solana-ecosystem-tools",
+            "07-nfts-next-steps"
+          ],
+          "relatedTerms": [
+            "whitelist",
+            "slippage"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "whitelist",
+          "title": "白名单",
+          "description": "白名单 词条骨架。",
+          "type": "glossary",
+          "locale": "zh-CN",
+          "term": "whitelist",
+          "relatedLessons": [
+            "07-nfts-next-steps",
+            "01-wallet-basics"
+          ],
+          "relatedTerms": [
+            "slippage",
+            "account"
+          ],
+          "body": "\n## Definition\n\n补充简短说明。\n\n## Why it matters\n\n补充简短说明。\n\n## Common pitfalls\n\n- 补充简短说明。\n- 补充简短说明。\n\n## Safety note\n\n补充简短说明。\n\n## See also\n\n- 补充简短说明。\n- 补充简短说明。\n\n",
+          "toc": [
+            {
+              "id": "definition",
+              "text": "Definition",
+              "depth": 2
+            },
+            {
+              "id": "why-it-matters",
+              "text": "Why it matters",
+              "depth": 2
+            },
+            {
+              "id": "common-pitfalls",
+              "text": "Common pitfalls",
+              "depth": 2
+            },
+            {
+              "id": "safety-note",
+              "text": "Safety note",
+              "depth": 2
+            },
+            {
+              "id": "see-also",
+              "text": "See also",
+              "depth": 2
+            }
+          ]
+        }
+      ]
+    },
+    "course": {
+      "en": [
+        {
+          "slug": "01-wallet-basics",
+          "title": "Wallet Basics",
+          "description": "Set up your first Solana wallet and protect your recovery phrase.",
+          "type": "course",
+          "locale": "en",
+          "term": "01-wallet-basics",
+          "step": 1,
+          "next": "02-transactions-fees",
+          "nextLink": "/course/02-transactions-fees",
+          "routeHint": "/course/02-transactions-fees",
+          "tags": [
+            "wallet",
+            "security",
+            "onboarding"
+          ],
+          "glossary": [
+            "wallet",
+            "seed-phrase",
+            "private-key"
+          ],
+          "body": "\n## TL;DR\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## What you'll learn\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Steps\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n3. Add concise bullet points here.\n\n## Common mistakes\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Quick quiz\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n\n## Glossary\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Security note\n\nAdd concise bullet points here.\n\n## Next up\n\nContinue to step 2 from /en/course/02-transactions-fees.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "02-transactions-fees",
+          "title": "Transactions and Fees",
+          "description": "Understand signing, confirmation, and fee behavior on Solana.",
+          "type": "course",
+          "locale": "en",
+          "term": "02-transactions-fees",
+          "step": 2,
+          "next": "03-staking-basics",
+          "nextLink": "/course/03-staking-basics",
+          "routeHint": "/course/03-staking-basics",
+          "tags": [
+            "transactions",
+            "fees",
+            "confirmation"
+          ],
+          "glossary": [
+            "transaction",
+            "signature",
+            "blockhash"
+          ],
+          "body": "\n## TL;DR\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## What you'll learn\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Steps\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n3. Add concise bullet points here.\n\n## Common mistakes\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Quick quiz\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n\n## Glossary\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Security note\n\nAdd concise bullet points here.\n\n## Next up\n\nContinue to step 3 from /en/course/03-staking-basics.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "03-staking-basics",
+          "title": "Staking Basics",
+          "description": "Learn delegation flow and how to evaluate validators.",
+          "type": "course",
+          "locale": "en",
+          "term": "03-staking-basics",
+          "step": 3,
+          "next": "04-rpc-and-explorers",
+          "nextLink": "/course/04-rpc-and-explorers",
+          "routeHint": "/course/04-rpc-and-explorers",
+          "tags": [
+            "staking",
+            "validators",
+            "delegation"
+          ],
+          "glossary": [
+            "stake",
+            "delegation",
+            "validator"
+          ],
+          "body": "\n## TL;DR\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## What you'll learn\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Steps\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n3. Add concise bullet points here.\n\n## Common mistakes\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Quick quiz\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n\n## Glossary\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Security note\n\nAdd concise bullet points here.\n\n## Next up\n\nContinue to step 4 from /en/course/04-rpc-and-explorers.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "04-rpc-and-explorers",
+          "title": "RPC and Explorers",
+          "description": "Use RPC endpoints and explorers to verify on-chain activity.",
+          "type": "course",
+          "locale": "en",
+          "term": "04-rpc-and-explorers",
+          "step": 4,
+          "next": "05-defi-safety",
+          "nextLink": "/course/05-defi-safety",
+          "routeHint": "/course/05-defi-safety",
+          "tags": [
+            "rpc",
+            "explorer",
+            "verification"
+          ],
+          "glossary": [
+            "rpc",
+            "slot",
+            "on-chain"
+          ],
+          "body": "\n## TL;DR\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## What you'll learn\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Steps\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n3. Add concise bullet points here.\n\n## Common mistakes\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Quick quiz\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n\n## Glossary\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Security note\n\nAdd concise bullet points here.\n\n## Next up\n\nContinue to step 5 from /en/course/05-defi-safety.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "05-defi-safety",
+          "title": "DeFi Safety",
+          "description": "Identify common risk patterns before using DeFi protocols.",
+          "type": "course",
+          "locale": "en",
+          "term": "05-defi-safety",
+          "step": 5,
+          "next": "06-solana-ecosystem-tools",
+          "nextLink": "/course/06-solana-ecosystem-tools",
+          "routeHint": "/course/06-solana-ecosystem-tools",
+          "tags": [
+            "defi",
+            "risk",
+            "safety"
+          ],
+          "glossary": [
+            "defi",
+            "slippage",
+            "liquidity-pool"
+          ],
+          "body": "\n## TL;DR\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## What you'll learn\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Steps\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n3. Add concise bullet points here.\n\n## Common mistakes\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Quick quiz\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n\n## Glossary\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Security note\n\nAdd concise bullet points here.\n\n## Next up\n\nContinue to step 6 from /en/course/06-solana-ecosystem-tools.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "06-solana-ecosystem-tools",
+          "title": "Solana Ecosystem Tools",
+          "description": "Build a practical toolkit for daily learning and troubleshooting.",
+          "type": "course",
+          "locale": "en",
+          "term": "06-solana-ecosystem-tools",
+          "step": 6,
+          "next": "07-nfts-next-steps",
+          "nextLink": "/course/07-nfts-next-steps",
+          "routeHint": "/course/07-nfts-next-steps",
+          "tags": [
+            "tooling",
+            "ecosystem",
+            "workflow"
+          ],
+          "glossary": [
+            "dapp",
+            "node",
+            "oracle"
+          ],
+          "body": "\n## TL;DR\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## What you'll learn\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Steps\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n3. Add concise bullet points here.\n\n## Common mistakes\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Quick quiz\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n\n## Glossary\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Security note\n\nAdd concise bullet points here.\n\n## Next up\n\nContinue to step 7 from /en/course/07-nfts-next-steps.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "07-nfts-next-steps",
+          "title": "NFTs and Next Steps",
+          "description": "Explore practical NFT use-cases and continue your learning path.",
+          "type": "course",
+          "locale": "en",
+          "term": "07-nfts-next-steps",
+          "step": 7,
+          "next": "",
+          "nextLink": "/glossary",
+          "routeHint": "/glossary",
+          "tags": [
+            "nft",
+            "roadmap",
+            "next-steps"
+          ],
+          "glossary": [
+            "nft",
+            "mint",
+            "whitelist"
+          ],
+          "body": "\n## TL;DR\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## What you'll learn\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Steps\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n3. Add concise bullet points here.\n\n## Common mistakes\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Quick quiz\n\n1. Add concise bullet points here.\n2. Add concise bullet points here.\n\n## Glossary\n\n- Add concise bullet points here.\n- Add concise bullet points here.\n\n## Security note\n\nAdd concise bullet points here.\n\n## Next up\n\nCourse complete. Continue from /glossary.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "_index",
+          "title": "7-Step Solana Course",
+          "description": "Outline index for the beginner course.",
+          "type": "course_index",
+          "locale": "en",
+          "body": "\n## Course Outline\n\nUse this index to draft each lesson before filling full explanations.\n",
+          "toc": [
+            {
+              "id": "course-outline",
+              "text": "Course Outline",
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "zh-CN": [
+        {
+          "slug": "01-wallet-basics",
+          "title": "钱包基础",
+          "description": "完成第一个 Solana 钱包配置并保护恢复短语。",
+          "type": "course",
+          "locale": "zh-CN",
+          "term": "01-wallet-basics",
+          "step": 1,
+          "next": "02-transactions-fees",
+          "nextLink": "/course/02-transactions-fees",
+          "routeHint": "/course/02-transactions-fees",
+          "tags": [
+            "wallet",
+            "security",
+            "onboarding"
+          ],
+          "glossary": [
+            "wallet",
+            "seed-phrase",
+            "private-key"
+          ],
+          "body": "\n## TL;DR\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## What you'll learn\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Steps\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n3. 在此补充精简要点。\n\n## Common mistakes\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Quick quiz\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n\n## Glossary\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Security note\n\n在此补充精简要点。\n\n## Next up\n\nContinue to step 2 from /zh-CN/course/02-transactions-fees.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "02-transactions-fees",
+          "title": "交易与手续费",
+          "description": "理解 Solana 的签名、确认流程与手续费行为。",
+          "type": "course",
+          "locale": "zh-CN",
+          "term": "02-transactions-fees",
+          "step": 2,
+          "next": "03-staking-basics",
+          "nextLink": "/course/03-staking-basics",
+          "routeHint": "/course/03-staking-basics",
+          "tags": [
+            "transactions",
+            "fees",
+            "confirmation"
+          ],
+          "glossary": [
+            "transaction",
+            "signature",
+            "blockhash"
+          ],
+          "body": "\n## TL;DR\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## What you'll learn\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Steps\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n3. 在此补充精简要点。\n\n## Common mistakes\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Quick quiz\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n\n## Glossary\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Security note\n\n在此补充精简要点。\n\n## Next up\n\nContinue to step 3 from /zh-CN/course/03-staking-basics.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "03-staking-basics",
+          "title": "质押基础",
+          "description": "学习委托流程以及如何评估验证者。",
+          "type": "course",
+          "locale": "zh-CN",
+          "term": "03-staking-basics",
+          "step": 3,
+          "next": "04-rpc-and-explorers",
+          "nextLink": "/course/04-rpc-and-explorers",
+          "routeHint": "/course/04-rpc-and-explorers",
+          "tags": [
+            "staking",
+            "validators",
+            "delegation"
+          ],
+          "glossary": [
+            "stake",
+            "delegation",
+            "validator"
+          ],
+          "body": "\n## TL;DR\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## What you'll learn\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Steps\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n3. 在此补充精简要点。\n\n## Common mistakes\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Quick quiz\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n\n## Glossary\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Security note\n\n在此补充精简要点。\n\n## Next up\n\nContinue to step 4 from /zh-CN/course/04-rpc-and-explorers.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "04-rpc-and-explorers",
+          "title": "RPC 与浏览器",
+          "description": "使用 RPC 节点和浏览器核对链上活动。",
+          "type": "course",
+          "locale": "zh-CN",
+          "term": "04-rpc-and-explorers",
+          "step": 4,
+          "next": "05-defi-safety",
+          "nextLink": "/course/05-defi-safety",
+          "routeHint": "/course/05-defi-safety",
+          "tags": [
+            "rpc",
+            "explorer",
+            "verification"
+          ],
+          "glossary": [
+            "rpc",
+            "slot",
+            "on-chain"
+          ],
+          "body": "\n## TL;DR\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## What you'll learn\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Steps\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n3. 在此补充精简要点。\n\n## Common mistakes\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Quick quiz\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n\n## Glossary\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Security note\n\n在此补充精简要点。\n\n## Next up\n\nContinue to step 5 from /zh-CN/course/05-defi-safety.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "05-defi-safety",
+          "title": "DeFi 安全",
+          "description": "在使用 DeFi 协议前识别常见风险模式。",
+          "type": "course",
+          "locale": "zh-CN",
+          "term": "05-defi-safety",
+          "step": 5,
+          "next": "06-solana-ecosystem-tools",
+          "nextLink": "/course/06-solana-ecosystem-tools",
+          "routeHint": "/course/06-solana-ecosystem-tools",
+          "tags": [
+            "defi",
+            "risk",
+            "safety"
+          ],
+          "glossary": [
+            "defi",
+            "slippage",
+            "liquidity-pool"
+          ],
+          "body": "\n## TL;DR\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## What you'll learn\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Steps\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n3. 在此补充精简要点。\n\n## Common mistakes\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Quick quiz\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n\n## Glossary\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Security note\n\n在此补充精简要点。\n\n## Next up\n\nContinue to step 6 from /zh-CN/course/06-solana-ecosystem-tools.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "06-solana-ecosystem-tools",
+          "title": "Solana 生态工具",
+          "description": "建立用于日常学习与排错的实用工具集合。",
+          "type": "course",
+          "locale": "zh-CN",
+          "term": "06-solana-ecosystem-tools",
+          "step": 6,
+          "next": "07-nfts-next-steps",
+          "nextLink": "/course/07-nfts-next-steps",
+          "routeHint": "/course/07-nfts-next-steps",
+          "tags": [
+            "tooling",
+            "ecosystem",
+            "workflow"
+          ],
+          "glossary": [
+            "dapp",
+            "node",
+            "oracle"
+          ],
+          "body": "\n## TL;DR\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## What you'll learn\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Steps\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n3. 在此补充精简要点。\n\n## Common mistakes\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Quick quiz\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n\n## Glossary\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Security note\n\n在此补充精简要点。\n\n## Next up\n\nContinue to step 7 from /zh-CN/course/07-nfts-next-steps.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "07-nfts-next-steps",
+          "title": "NFT 与下一步",
+          "description": "了解 NFT 的实用场景并规划后续学习路径。",
+          "type": "course",
+          "locale": "zh-CN",
+          "term": "07-nfts-next-steps",
+          "step": 7,
+          "next": "",
+          "nextLink": "/glossary",
+          "routeHint": "/glossary",
+          "tags": [
+            "nft",
+            "roadmap",
+            "next-steps"
+          ],
+          "glossary": [
+            "nft",
+            "mint",
+            "whitelist"
+          ],
+          "body": "\n## TL;DR\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## What you'll learn\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Steps\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n3. 在此补充精简要点。\n\n## Common mistakes\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Quick quiz\n\n1. 在此补充精简要点。\n2. 在此补充精简要点。\n\n## Glossary\n\n- 在此补充精简要点。\n- 在此补充精简要点。\n\n## Security note\n\n在此补充精简要点。\n\n## Next up\n\nCourse complete. Continue from /glossary.\n\n",
+          "toc": [
+            {
+              "id": "tldr",
+              "text": "TL;DR",
+              "depth": 2
+            },
+            {
+              "id": "what-youll-learn",
+              "text": "What you'll learn",
+              "depth": 2
+            },
+            {
+              "id": "steps",
+              "text": "Steps",
+              "depth": 2
+            },
+            {
+              "id": "common-mistakes",
+              "text": "Common mistakes",
+              "depth": 2
+            },
+            {
+              "id": "quick-quiz",
+              "text": "Quick quiz",
+              "depth": 2
+            },
+            {
+              "id": "glossary",
+              "text": "Glossary",
+              "depth": 2
+            },
+            {
+              "id": "security-note",
+              "text": "Security note",
+              "depth": 2
+            },
+            {
+              "id": "next-up",
+              "text": "Next up",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "slug": "_index",
+          "title": "7 步 Solana 课程",
+          "description": "面向新手课程的大纲索引。",
+          "type": "course_index",
+          "locale": "zh-CN",
+          "body": "\n## 课程大纲\n\n先用本索引搭建每课结构，再补充完整解释。\n",
+          "toc": [
+            {
+              "id": "课程大纲",
+              "text": "课程大纲",
+              "depth": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

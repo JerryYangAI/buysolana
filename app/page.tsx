@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import { cookies, headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { DEFAULT_LOCALE, LOCALE_COOKIE, isLocale } from "@/lib/i18n/config";

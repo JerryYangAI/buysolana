@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import type { Metadata } from "next";
 import { PageHero } from "@/components/ui/page-hero";
 import { isLocale } from "@/lib/i18n/config";
