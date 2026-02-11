@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": "welcome-solana",
+      "title": "How should a complete beginner start with Solana?",
+      "body": "I know basic crypto terms but never used a Solana wallet. What should I do in week one?",
+      "author": "starter01",
+      "createdAt": "2026-02-10T09:00:00.000Z",
+      "comments": [
+        {
+          "id": "c1",
+          "author": "mentor",
+          "body": "Start with wallet setup, tiny test transfer, then explorer verification. Keep a checklist.",
+          "createdAt": "2026-02-10T10:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "asks": []
+}

@@ -1,0 +1,157 @@
+{
+  "site": {
+    "name": "buysolanas.com",
+    "tagline": "Beginner-first Solana learning hub"
+  },
+  "nav": {
+    "prices": "Prices",
+    "learn": "Learn",
+    "solutions": "Solutions",
+    "community": "Community",
+    "news": "News",
+    "blogPodcast": "Blog & Podcast",
+    "start": "Start",
+    "course": "Course",
+    "glossary": "Glossary",
+    "ask": "Ask"
+  },
+  "locale": {
+    "en": "EN",
+    "zhCN": "中文"
+  },
+  "hero": {
+    "eyebrow": "Beginner-first Solana education",
+    "title": "Learn Solana without hype",
+    "description": "Understand wallets, transactions, staking, ecosystem tools, and safety with clear, practical lessons.",
+    "primary": "Start learning",
+    "secondary": "Open 7-step course"
+  },
+  "home": {
+    "prices": {
+      "title": "Prices",
+      "description": "Track key market numbers with server-side cached CoinGecko data.",
+      "cta": "View prices"
+    },
+    "learn": {
+      "title": "Learn",
+      "description": "Structured beginner lessons, glossary, and guided pathways.",
+      "cta": "Open learn hub"
+    },
+    "solutions": {
+      "title": "Solutions",
+      "description": "Explore real-world Solana use cases in finance, music, NFTs, and games.",
+      "cta": "Explore solutions"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Ask questions, read practical answers, and share your setup experience.",
+      "cta": "Join community"
+    },
+    "news": {
+      "title": "News",
+      "description": "Follow important ecosystem updates with plain-language summaries.",
+      "cta": "Read news"
+    },
+    "blogPodcast": {
+      "title": "Blog & Podcast",
+      "description": "Long-form guides and audio explainers for continued learning.",
+      "cta": "Read and listen"
+    }
+  },
+  "buttons": {
+    "viewAll": "View all",
+    "readMore": "Read more",
+    "open": "Open",
+    "submit": "Submit",
+    "post": "Post",
+    "comment": "Comment",
+    "search": "Search",
+    "switchLanguage": "Switch language"
+  },
+  "prices": {
+    "title": "Crypto Prices",
+    "description": "Server-side CoinGecko feed with 60-second cache.",
+    "searchPlaceholder": "Search by name or symbol",
+    "error": "Live data temporarily unavailable. Showing fallback values.",
+    "details": "Market details"
+  },
+  "learn": {
+    "title": "Learn Solana",
+    "description": "Beginner-friendly lessons grouped by trusted source type.",
+    "groups": {
+      "docs": "Docs",
+      "basics": "Foundational notes",
+      "youtube": "YouTube",
+      "github": "GitHub"
+    },
+    "toc": "Table of contents",
+    "tldr": "TL;DR",
+    "nextRead": "Next reading",
+    "disclaimer": "Educational content only. This is not financial advice."
+  },
+  "community": {
+    "title": "Community Q&A",
+    "description": "Read, ask, and discuss Solana basics.",
+    "newPost": "Create post",
+    "empty": "No posts yet.",
+    "titleField": "Title",
+    "bodyField": "Your question",
+    "authorField": "Nickname",
+    "commentField": "Write a comment",
+    "rateLimit": "Please wait 30 seconds before posting again."
+  },
+  "news": {
+    "title": "News",
+    "description": "Short updates and why they matter to beginners."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Practical written guides for Solana learners."
+  },
+  "podcast": {
+    "title": "Podcast",
+    "description": "Audio explainers for concepts and workflows."
+  },
+  "solutions": {
+    "title": "Solutions",
+    "description": "Use-case overviews that connect learning to real products."
+  },
+  "ask": {
+    "title": "Ask a question",
+    "description": "Send your question and optionally create a community thread.",
+    "emailField": "Email (optional)",
+    "questionField": "Question",
+    "autoThread": "Create a public community thread"
+  },
+  "security": {
+    "title": "Security",
+    "description": "Protect your wallet, keys, and assets with practical rules."
+  },
+  "footer": {
+    "disclaimer": "We do not provide buy/sell timing or investment advice.",
+    "risk": "Crypto assets involve risk. Always do your own research.",
+    "security": "Read security guide"
+  },
+  "chat": {
+    "title": "Learning assistant",
+    "placeholder": "Ask what to learn next",
+    "send": "Send",
+    "tradingRefusal": "I cannot provide buy/sell timing or investment advice. Please review the security page first.",
+    "routeHint": "A good next step is to review our lesson pages and glossary."
+  },
+  "meta": {
+    "homeTitle": "buysolanas.com | Beginner-first Solana education",
+    "homeDescription": "Learn Solana step by step: prices, lessons, solutions, community, news, blog, and podcast.",
+    "pricesTitle": "Prices | buysolanas.com",
+    "learnTitle": "Learn | buysolanas.com",
+    "solutionsTitle": "Solutions | buysolanas.com",
+    "communityTitle": "Community | buysolanas.com",
+    "newsTitle": "News | buysolanas.com",
+    "blogTitle": "Blog | buysolanas.com",
+    "podcastTitle": "Podcast | buysolanas.com",
+    "courseTitle": "Course | buysolanas.com",
+    "glossaryTitle": "Glossary | buysolanas.com",
+    "askTitle": "Ask | buysolanas.com",
+    "securityTitle": "Security | buysolanas.com"
+  }
+}

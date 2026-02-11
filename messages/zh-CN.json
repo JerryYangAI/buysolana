@@ -1,0 +1,157 @@
+{
+  "site": {
+    "name": "buysolanas.com",
+    "tagline": "面向新手的 Solana 学习站"
+  },
+  "nav": {
+    "prices": "价格",
+    "learn": "学习",
+    "solutions": "解决方案",
+    "community": "社区",
+    "news": "新闻",
+    "blogPodcast": "博客与播客",
+    "start": "开始",
+    "course": "课程",
+    "glossary": "术语",
+    "ask": "提问"
+  },
+  "locale": {
+    "en": "EN",
+    "zhCN": "中文"
+  },
+  "hero": {
+    "eyebrow": "面向新手的 Solana 教育",
+    "title": "用清晰路径学会 Solana",
+    "description": "从钱包、交易、质押到生态工具与安全实践，按步骤掌握核心概念。",
+    "primary": "开始学习",
+    "secondary": "进入 7 步课程"
+  },
+  "home": {
+    "prices": {
+      "title": "价格",
+      "description": "通过服务端缓存的 CoinGecko 数据查看关键行情。",
+      "cta": "查看价格"
+    },
+    "learn": {
+      "title": "学习",
+      "description": "新手结构化课程、术语表与进阶路径。",
+      "cta": "进入学习中心"
+    },
+    "solutions": {
+      "title": "解决方案",
+      "description": "了解 Solana 在金融、音乐、NFT 与游戏中的落地场景。",
+      "cta": "探索场景"
+    },
+    "community": {
+      "title": "社区",
+      "description": "提出问题、查看经验回答、分享你的实操记录。",
+      "cta": "进入社区"
+    },
+    "news": {
+      "title": "新闻",
+      "description": "关注生态更新，并用通俗语言理解其影响。",
+      "cta": "阅读新闻"
+    },
+    "blogPodcast": {
+      "title": "博客与播客",
+      "description": "通过长文与音频持续巩固你的学习路径。",
+      "cta": "阅读与收听"
+    }
+  },
+  "buttons": {
+    "viewAll": "查看全部",
+    "readMore": "阅读全文",
+    "open": "打开",
+    "submit": "提交",
+    "post": "发布",
+    "comment": "评论",
+    "search": "搜索",
+    "switchLanguage": "切换语言"
+  },
+  "prices": {
+    "title": "加密货币价格",
+    "description": "服务端 CoinGecko 行情，60 秒缓存。",
+    "searchPlaceholder": "按名称或代码搜索",
+    "error": "实时数据暂不可用，当前显示兜底数据。",
+    "details": "市场详情"
+  },
+  "learn": {
+    "title": "学习 Solana",
+    "description": "按可信来源分组的新手友好内容。",
+    "groups": {
+      "docs": "官方文档",
+      "basics": "基础知识文件",
+      "youtube": "YouTube",
+      "github": "GitHub"
+    },
+    "toc": "目录",
+    "tldr": "快速结论",
+    "nextRead": "下一步阅读",
+    "disclaimer": "仅用于教育目的，不构成任何投资建议。"
+  },
+  "community": {
+    "title": "社区问答",
+    "description": "阅读、提问并讨论 Solana 基础问题。",
+    "newPost": "发新帖",
+    "empty": "还没有帖子。",
+    "titleField": "标题",
+    "bodyField": "你的问题",
+    "authorField": "昵称",
+    "commentField": "写下评论",
+    "rateLimit": "30 秒内请勿重复提交。"
+  },
+  "news": {
+    "title": "新闻",
+    "description": "简短更新与新手相关性解读。"
+  },
+  "blog": {
+    "title": "博客",
+    "description": "面向学习者的实战文字指南。"
+  },
+  "podcast": {
+    "title": "播客",
+    "description": "通过音频理解关键概念与工作流。"
+  },
+  "solutions": {
+    "title": "解决方案",
+    "description": "把学习内容连接到真实产品场景。"
+  },
+  "ask": {
+    "title": "提交问题",
+    "description": "提交你的问题，并可选择自动创建社区帖子。",
+    "emailField": "邮箱（可选）",
+    "questionField": "问题",
+    "autoThread": "同时创建公开社区帖子"
+  },
+  "security": {
+    "title": "安全",
+    "description": "用可执行的规则保护你的钱包与资产。"
+  },
+  "footer": {
+    "disclaimer": "我们不提供买卖时机或投资建议。",
+    "risk": "加密资产存在风险，请自行研究与判断。",
+    "security": "查看安全指南"
+  },
+  "chat": {
+    "title": "学习助手",
+    "placeholder": "想知道先学什么",
+    "send": "发送",
+    "tradingRefusal": "我不能提供买卖时机或投资建议。请先阅读安全页面。",
+    "routeHint": "建议先查看站内课程与术语页面。"
+  },
+  "meta": {
+    "homeTitle": "buysolanas.com | 面向新手的 Solana 学习站",
+    "homeDescription": "按步骤学习 Solana：价格、课程、解决方案、社区、新闻、博客与播客。",
+    "pricesTitle": "价格 | buysolanas.com",
+    "learnTitle": "学习 | buysolanas.com",
+    "solutionsTitle": "解决方案 | buysolanas.com",
+    "communityTitle": "社区 | buysolanas.com",
+    "newsTitle": "新闻 | buysolanas.com",
+    "blogTitle": "博客 | buysolanas.com",
+    "podcastTitle": "播客 | buysolanas.com",
+    "courseTitle": "课程 | buysolanas.com",
+    "glossaryTitle": "术语 | buysolanas.com",
+    "askTitle": "提问 | buysolanas.com",
+    "securityTitle": "安全 | buysolanas.com"
+  }
+}
