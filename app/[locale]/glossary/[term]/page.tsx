@@ -1,11 +1,24 @@
-export const runtime = "edge";
+export const dynamic = "force-static";
 
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { MdxRenderer } from "@/components/content/mdx-renderer";
 import { listContent, getContentBySlug } from "@/lib/content";
-import { isLocale } from "@/lib/i18n/config";
+import { isLocale, LOCALES } from "@/lib/i18n/config";
 import { localizedMetadata } from "@/lib/metadata";
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const params = await Promise.all(
+    LOCALES.map(async (locale) => {
+      const entries = await listContent("glossary", locale);
+      return entries.map((entry) => ({ locale, term: entry.term || entry.slug }));
+    }),
+  );
+
+  return params.flat();
+}
 
 export async function generateMetadata({
   params,

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "next-on-pages",
+    "pages:build": "next-on-pages && rm -f .vercel/output/static/_worker.js/nop-build-log.json",
     "start": "next start",
     "lint": "eslint ."
   },

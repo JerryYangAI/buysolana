@@ -1,4 +1,4 @@
-export const runtime = "edge";
+export const dynamic = "force-static";
 
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -6,10 +6,23 @@ import Link from "next/link";
 import { ArticleLayout } from "@/components/content/article-layout";
 import { MdxRenderer } from "@/components/content/mdx-renderer";
 import { getContentBySlug, listContent } from "@/lib/content";
-import { isLocale, type Locale } from "@/lib/i18n/config";
+import { isLocale, LOCALES, type Locale } from "@/lib/i18n/config";
 import { getMessages } from "@/lib/i18n/messages";
 import { withLocale } from "@/lib/i18n/routing";
 import { localizedMetadata } from "@/lib/metadata";
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const params = await Promise.all(
+    LOCALES.map(async (locale) => {
+      const entries = await listContent("course", locale);
+      return entries.map((entry) => ({ locale, step: entry.slug }));
+    }),
+  );
+
+  return params.flat();
+}
 
 function resolveNextLink(locale: Locale, nextLink?: string, next?: string) {
   const raw = (nextLink || "").trim();

@@ -1,4 +1,6 @@
-export const runtime = "edge";
+export const dynamic = "force-static";
+export const dynamicParams = false;
+export { generateLocaleParams as generateStaticParams } from "@/lib/i18n/static-params";
 
 import Link from "next/link";
 import type { Metadata } from "next";

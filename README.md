@@ -70,7 +70,7 @@ Local setup reminder:
 Recommended baseline:
 
 - Framework preset: `Next.js`
-- Build command: `pnpm install --frozen-lockfile && pnpm build && pnpm exec next-on-pages`
+- Build command: `pnpm install --frozen-lockfile && pnpm build && pnpm pages:build`
 - Build output directory: `.vercel/output/static`
 - Node.js version: `20+`
 - `ENFORCE_CANONICAL_REDIRECT=1` (on canonical production domain setup)
@@ -79,6 +79,7 @@ Compatibility note:
 
 - `@cloudflare/next-on-pages` is currently deprecated and has a peer range up to Next `15.5.x`.
 - This project is on Next `16.x`, so `pnpm exec next-on-pages` may fail with edge-runtime/prerender validation errors unless you downgrade Next or migrate to the OpenNext Cloudflare adapter.
+- `pages:build` removes `nop-build-log.json` after build so the `_worker.js` directory is not bloated by diagnostic logs.
 
 Compatibility suggestions:
 

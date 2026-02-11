@@ -1,26 +1,9 @@
-export const runtime = "edge";
-
-import { cookies, headers } from "next/headers";
 import { redirect } from "next/navigation";
-import { DEFAULT_LOCALE, LOCALE_COOKIE, isLocale } from "@/lib/i18n/config";
+import { DEFAULT_LOCALE } from "@/lib/i18n/config";
 
-function detectFromHeader(acceptLanguage: string | null) {
-  const normalized = (acceptLanguage || "").toLowerCase();
-  if (normalized.includes("zh-cn") || normalized.includes("zh")) {
-    return "zh-CN" as const;
-  }
-  return DEFAULT_LOCALE;
-}
+export const dynamic = "force-static";
 
-export default async function RootPage() {
-  const cookieStore = await cookies();
-  const saved = cookieStore.get(LOCALE_COOKIE)?.value;
-
-  if (saved && isLocale(saved)) {
-    redirect(`/${saved}`);
-  }
-
-  const headerStore = await headers();
-  const locale = detectFromHeader(headerStore.get("accept-language"));
-  redirect(`/${locale}`);
+export default function RootPage() {
+  // Middleware handles locale detection first; this is a stable fallback.
+  redirect(`/${DEFAULT_LOCALE}`);
 }
