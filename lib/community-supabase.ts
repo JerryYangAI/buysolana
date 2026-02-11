@@ -1,7 +1,7 @@
 import "server-only";
 
 import type { Locale } from "@/lib/i18n/config";
-import { supabaseAdmin } from "@/lib/supabase/admin";
+import { getSupabaseAdmin } from "@/lib/supabase/admin";
 
 export type CommunityComment = {
   id: string;
@@ -79,10 +79,11 @@ export async function listPublishedPosts(input: {
   page: number;
   pageSize: number;
 }) {
+  const supabase = getSupabaseAdmin();
   const from = (input.page - 1) * input.pageSize;
   const to = from + input.pageSize - 1;
 
-  let query = supabaseAdmin
+  let query = supabase
     .from("posts")
     .select("id, locale, title, body, author_name, status, created_at", { count: "exact" })
     .eq("status", "published");
@@ -106,7 +107,9 @@ export async function listPublishedPosts(input: {
 }
 
 export async function getPublishedPostById(postId: string, locale?: Locale) {
-  let postQuery = supabaseAdmin
+  const supabase = getSupabaseAdmin();
+
+  let postQuery = supabase
     .from("posts")
     .select("id, locale, title, body, author_name, status, created_at")
     .eq("id", postId)
@@ -130,7 +133,7 @@ export async function getPublishedPostById(postId: string, locale?: Locale) {
     return null;
   }
 
-  const { data: commentsData, error: commentsError } = await supabaseAdmin
+  const { data: commentsData, error: commentsError } = await supabase
     .from("comments")
     .select("id, post_id, body, author_name, status, created_at")
     .eq("post_id", postId)
@@ -153,7 +156,9 @@ export async function createPendingPost(input: {
   body: string;
   authorName?: string;
 }) {
-  const { data, error } = await supabaseAdmin
+  const supabase = getSupabaseAdmin();
+
+  const { data, error } = await supabase
     .from("posts")
     .insert({
       locale: input.locale,
@@ -177,7 +182,9 @@ export async function createPendingComment(input: {
   body: string;
   authorName?: string;
 }) {
-  const { data: postData, error: postError } = await supabaseAdmin
+  const supabase = getSupabaseAdmin();
+
+  const { data: postData, error: postError } = await supabase
     .from("posts")
     .select("id")
     .eq("id", input.postId)
@@ -193,7 +200,7 @@ export async function createPendingComment(input: {
     return null;
   }
 
-  const { data, error } = await supabaseAdmin
+  const { data, error } = await supabase
     .from("comments")
     .insert({
       post_id: input.postId,
@@ -217,7 +224,9 @@ export async function createPendingAsk(input: {
   body: string;
   email?: string;
 }) {
-  const { data, error } = await supabaseAdmin
+  const supabase = getSupabaseAdmin();
+
+  const { data, error } = await supabase
     .from("asks")
     .insert({
       locale: input.locale,

@@ -1,6 +1,6 @@
 import "server-only";
 
-import { supabaseAdmin } from "@/lib/supabase/admin";
+import { getSupabaseAdmin } from "@/lib/supabase/admin";
 
 export type ModerationEntity = "posts" | "comments" | "asks";
 export type ModerationAction = "publish" | "hide";
@@ -35,23 +35,24 @@ export type PendingAsk = {
 };
 
 export async function getPendingModeration(input: { page: number; pageSize: number }) {
+  const supabase = getSupabaseAdmin();
   const from = (input.page - 1) * input.pageSize;
   const to = from + input.pageSize - 1;
 
   const [postsRes, commentsRes, asksRes] = await Promise.all([
-    supabaseAdmin
+    supabase
       .from("posts")
       .select("id, locale, title, body, author_name, status, created_at", { count: "exact" })
       .eq("status", "pending")
       .order("created_at", { ascending: false })
       .range(from, to),
-    supabaseAdmin
+    supabase
       .from("comments")
       .select("id, post_id, body, author_name, status, created_at", { count: "exact" })
       .eq("status", "pending")
       .order("created_at", { ascending: false })
       .range(from, to),
-    supabaseAdmin
+    supabase
       .from("asks")
       .select("id, locale, subject, body, email, status, created_at", { count: "exact" })
       .eq("status", "pending")
@@ -94,9 +95,10 @@ export async function applyModerationAction(input: {
   id: string;
   action: ModerationAction;
 }) {
+  const supabase = getSupabaseAdmin();
   const status = mapActionToStatus(input.action);
 
-  const { data, error } = await supabaseAdmin
+  const { data, error } = await supabase
     .from(input.entity)
     .update({ status })
     .eq("id", input.id)
