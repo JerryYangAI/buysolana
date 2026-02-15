@@ -1,5 +1,3 @@
-export const runtime = "edge";
-
 import { NextRequest, NextResponse } from "next/server";
 import { apiError, normalizeOptionalString } from "@/lib/api/response";
 import { getPublishedPostById } from "@/lib/community-supabase";

@@ -1,7 +1,6 @@
 export const dynamic = "force-static";
 export const dynamicParams = false;
 export { generateLocaleParams as generateStaticParams } from "@/lib/i18n/static-params";
-
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MdxRenderer } from "@/components/content/mdx-renderer";

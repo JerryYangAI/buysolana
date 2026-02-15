@@ -1,5 +1,3 @@
-export const runtime = "edge";
-
 import { NextResponse } from "next/server";
 import { apiError, normalizeOptionalString } from "@/lib/api/response";
 import { isAdminConfigured, setAdminSessionCookie, verifyAdminPassword } from "@/lib/admin/auth";

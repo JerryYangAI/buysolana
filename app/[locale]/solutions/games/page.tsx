@@ -1,7 +1,6 @@
 export const dynamic = "force-static";
 export const dynamicParams = false;
 export { generateLocaleParams as generateStaticParams } from "@/lib/i18n/static-params";
-
 import type { Metadata } from "next";
 import { localizedMetadata } from "@/lib/metadata";
 import { isLocale } from "@/lib/i18n/config";

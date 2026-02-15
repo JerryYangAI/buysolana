@@ -1,5 +1,3 @@
-export const runtime = "edge";
-
 import { NextRequest, NextResponse } from "next/server";
 import { countUrlsInFields, enforceDuplicateCheck, isLengthBetween } from "@/lib/antiabuse/spam";
 import { extractClientIp, enforceRateLimit } from "@/lib/antiabuse/rateLimit";

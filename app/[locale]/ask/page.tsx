@@ -1,5 +1,3 @@
-export const runtime = "edge";
-
 import type { Metadata } from "next";
 import { AskForm } from "@/components/community/ask-form";
 import { PageHero } from "@/components/ui/page-hero";

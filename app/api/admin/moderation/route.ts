@@ -1,5 +1,3 @@
-export const runtime = "edge";
-
 import { NextRequest, NextResponse } from "next/server";
 import { isAdminSessionValid } from "@/lib/admin/auth";
 import { getPendingModeration } from "@/lib/admin/moderation";
