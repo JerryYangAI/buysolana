@@ -1,6 +1,2 @@
-name = "buysolanas"
+name = "buysolana"
 compatibility_date = "2026-02-11"
-
-# Cloudflare Pages can read these from dashboard settings.
-# Keep this file as a baseline for local consistency.
-pages_build_output_dir = ".vercel/output/static"
